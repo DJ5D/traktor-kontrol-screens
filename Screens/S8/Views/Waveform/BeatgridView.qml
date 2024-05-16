@@ -179,7 +179,10 @@ Traktor.Beatgrid {
       anchors.top:          parent.top
       anchors.left:         parent.left
       anchors.right:        parent.right
-      height: 6
+      height: 70
+      
+      beatMarkerList: beatMarkers
+      color:  colors.colorWhite09
       
       beatMarkerList: beatMarkers
       color:  colors.colorWhite75
@@ -190,10 +193,11 @@ Traktor.Beatgrid {
       anchors.bottom:       parent.bottom
       anchors.left:         parent.left
       anchors.right:        parent.right
-      height: 6
+      height: 70
       
       beatMarkerList: beatMarkers
-      color:  colors.colorWhite75
+      color:  colors.colorWhite09
+      
     }
     
     Traktor.BeatgridLines
@@ -201,10 +205,10 @@ Traktor.Beatgrid {
       anchors.top:          parent.top
       anchors.left:         parent.left
       anchors.right:        parent.right
-      height: 10
+      height: 12
       
       beatMarkerList: barMarkers
-      color:  colors.colorRedPlaymarker
+      color:  colors.colorWhite09
     }
     
     Traktor.BeatgridLines
@@ -212,10 +216,10 @@ Traktor.Beatgrid {
       anchors.bottom:       parent.bottom
       anchors.left:         parent.left
       anchors.right:        parent.right
-      height: 10
+      height: 12
       
       beatMarkerList: barMarkers
-      color:  colors.colorRedPlaymarker
+      color:  colors.colorWhite09
     }
   }
 
