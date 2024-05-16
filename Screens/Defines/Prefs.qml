@@ -30,6 +30,7 @@ QtObject {
                                                     // 5 - Pioneer CDJ 2000
                                                     // 6 - Pioneer CDJ 3000
                                                     // 7 - NUMARK
+                                                    // 8 - DEFAULT
   readonly property variant mixerFXNames:         ["FLTR", "MFX 1", "MFX 2", "MFX 3", "MFX 4"] // do not change FLTR
 
   // deck header text (use -1 to turn off)
