@@ -3609,6 +3609,9 @@ Module
       {
         enabled: (deckAType == DeckType.Remix)
 
+	Wire { from: "%surface%.browse.turn"; to: "decks.1.remix.page"; enabled: screenOverlay.value == Overlay.none }
+        Wire { from: "%surface%.browse.turn"; to: "ShowDisplayButtonArea_EncoderAdapter"; enabled: screenOverlay.value == Overlay.none }  
+
         Wire { from: "%surface%.display.buttons.6"; to: "decks.1.remix.decrement_page" }
         Wire { from: "%surface%.display.buttons.7"; to: "decks.1.remix.increment_page" }
       }
@@ -3643,6 +3646,9 @@ Module
       WiresGroup
       {
         enabled: (deckBType == DeckType.Remix)
+
+	Wire { from: "%surface%.browse.turn"; to: "decks.2.remix.page"; enabled: screenOverlay.value == Overlay.none }
+        Wire { from: "%surface%.browse.turn"; to: "ShowDisplayButtonArea_EncoderAdapter"; enabled: screenOverlay.value == Overlay.none }  
 
         Wire { from: "%surface%.display.buttons.6"; to: "decks.2.remix.decrement_page" }
         Wire { from: "%surface%.display.buttons.7"; to: "decks.2.remix.increment_page" }
@@ -3679,6 +3685,9 @@ Module
       {
         enabled: (deckCType == DeckType.Remix)
 
+	Wire { from: "%surface%.browse.turn"; to: "decks.3.remix.page"; enabled: screenOverlay.value == Overlay.none }
+        Wire { from: "%surface%.browse.turn"; to: "ShowDisplayButtonArea_EncoderAdapter"; enabled: screenOverlay.value == Overlay.none }  
+
         Wire { from: "%surface%.display.buttons.6"; to: "decks.3.remix.decrement_page" }
         Wire { from: "%surface%.display.buttons.7"; to: "decks.3.remix.increment_page" }
       }
@@ -3712,6 +3721,9 @@ Module
       WiresGroup
       {
         enabled: (deckDType == DeckType.Remix)
+
+	Wire { from: "%surface%.browse.turn"; to: "decks.4.remix.page"; enabled: screenOverlay.value == Overlay.none }
+        Wire { from: "%surface%.browse.turn"; to: "ShowDisplayButtonArea_EncoderAdapter"; enabled: screenOverlay.value == Overlay.none }  
 
         Wire { from: "%surface%.display.buttons.6"; to: "decks.4.remix.decrement_page" }
         Wire { from: "%surface%.display.buttons.7"; to: "decks.4.remix.increment_page" }
