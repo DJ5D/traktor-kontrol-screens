@@ -529,6 +529,10 @@ QtObject {
     { low1:  rgba ( 30,  50, 120, 160),  low2:  rgba ( 28, 182, 226, 170),
       mid1:  rgba ( 80, 228,  80, 110),  mid2:  rgba (120, 246, 120, 130),
       high1: rgba (255, 150,   3, 255),  high2: rgba (245, 176,  18, 255)}
+  // Spectrum 8 - DEFAULT
+    { low1:  rgba (24,   48,  80, 180),  low2:  rgba (24,   56,  96, 190),
+      mid1:  rgba (80,  160, 160, 100),  mid2:  rgba (48,  112, 112, 150),
+      high1: rgba (184, 240, 232, 120),  high2: rgba (208, 255, 248, 180) }
   ]
 
   function getDefaultWaveformColors()
