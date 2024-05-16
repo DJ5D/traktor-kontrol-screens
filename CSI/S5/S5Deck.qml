@@ -3598,6 +3598,8 @@ Module
       {
         enabled: hasWaveform(deckAType) && !module.shift
 
+	Wire { from: "%surface%.browse.turn"; to: RelativePropertyAdapter { path: settingsPath + ".top.waveform_zoom"; step: -1; mode: RelativeMode.Stepped } 	enabled: screenOverlay.value == Overlay.none }
+
         Wire { from: "%surface%.display.buttons.6"; to: RelativePropertyAdapter { path: settingsPath + ".top.waveform_zoom"; mode: RelativeMode.Decrement } }
         Wire { from: "%surface%.display.buttons.7"; to: RelativePropertyAdapter { path: settingsPath + ".top.waveform_zoom"; mode: RelativeMode.Increment } }
       }
@@ -3630,6 +3632,8 @@ Module
       WiresGroup
       {
         enabled: hasWaveform(deckBType) && !module.shift
+
+	Wire { from: "%surface%.browse.turn"; to: RelativePropertyAdapter { path: settingsPath + ".top.waveform_zoom"; step: -1; mode: RelativeMode.Stepped } 	enabled: screenOverlay.value == Overlay.none }
 
         Wire { from: "%surface%.display.buttons.6"; to: RelativePropertyAdapter { path: settingsPath + ".top.waveform_zoom"; mode: RelativeMode.Decrement } }
         Wire { from: "%surface%.display.buttons.7"; to: RelativePropertyAdapter { path: settingsPath + ".top.waveform_zoom"; mode: RelativeMode.Increment } }
@@ -3664,6 +3668,8 @@ Module
       {
         enabled: hasWaveform(deckCType) && !module.shift
 
+	Wire { from: "%surface%.browse.turn"; to: RelativePropertyAdapter { path: settingsPath + ".top.waveform_zoom"; step: -1; mode: RelativeMode.Stepped } 	enabled: screenOverlay.value == Overlay.none }
+
         Wire { from: "%surface%.display.buttons.6"; to: RelativePropertyAdapter { path: settingsPath + ".bottom.waveform_zoom"; mode: RelativeMode.Decrement } }
         Wire { from: "%surface%.display.buttons.7"; to: RelativePropertyAdapter { path: settingsPath + ".bottom.waveform_zoom"; mode: RelativeMode.Increment } }
       }
@@ -3695,6 +3701,8 @@ Module
       WiresGroup
       {
         enabled: hasWaveform(deckDType) && !module.shift
+
+	Wire { from: "%surface%.browse.turn"; to: RelativePropertyAdapter { path: settingsPath + ".top.waveform_zoom"; step: -1; mode: RelativeMode.Stepped } 	enabled: screenOverlay.value == Overlay.none }
 
         Wire { from: "%surface%.display.buttons.6"; to: RelativePropertyAdapter { path: settingsPath + ".bottom.waveform_zoom"; mode: RelativeMode.Decrement } }
         Wire { from: "%surface%.display.buttons.7"; to: RelativePropertyAdapter { path: settingsPath + ".bottom.waveform_zoom"; mode: RelativeMode.Increment } }
