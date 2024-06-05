@@ -1,5 +1,5 @@
 # Replacement screens for **Traktor Pro 3.10.x and 3.11.x** and **Kontrol D2/S5/S8 and S4 MK3**
-# This version adds Erik Minekus features such as BPM Coarse default, Waveform Zoom, Sync Adjust BPM, and ALT Beatgrid. TESTED on Kontrol S5 only #
+# This version adds Erik Minekus features such as BPM Coarse default, Waveform Zoom, Sync Adjust BPM, and ALT Beatgrid, default BLUE waveform in prefs. TESTED on Kontrol S5 only #
 
 **Contact:**
 
